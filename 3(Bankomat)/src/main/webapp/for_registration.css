@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+}
+
+.body {
+    display:flex;
+}
+body {background: #053f38; color: #98baba; }
+
+.p-0{
+    padding: 0;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    height: 50px;
+    width: 50px;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    background-color: #313131;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(http://www.gandex.ru/upl/oboi/u9973_4570_1920x1200_HD_Wallpaper_136_Zixpk.jpg);
+    width: 100%;
+    height: 100vh;
+}
+
+.wrapper{
+    background-image: url(http://www.radionetplus.ru/uploads/posts/2013-04/thumbs/1365401196_teplye-oboi-1.jpeg);
+    padding: 0;
+}
+.text{
+    color: white;
+    margin:20px;
+    font-family: Arial;
+}
+
+.only-q {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 20vh;
+}
+
+.sidebar-search {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction:column;
+}
+/*.Login{
+    position: absolute;
+    right: 400px;
+    color: white;
+    font-family: Arial;
+}*/
+
+h1 {
+    margin: 0;
+    padding: 150px 0 0 0;
+    color: white;
+    font-size: 13px;
+    font-family: Arial;
+    letter-spacing: 3px;
+}
+
+hr {
+    color: white;
+    height: 1px;
+    width: 25px;
+    background: #fff;
+}
+
+h2 {
+    margin: 0;
+    padding: 50px 0 0 0;
+    color: white;
+    font-size: 40px;
+    font-family: Arial;
+}
+
+h3 {
+    margin: 0;
+    padding: 20px 0 0 0;
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+}
+
+.share-input1 {
+    width: 410px;
+    height: 50px;
+    font-size: 30px;
+    background: transparent;
+    color: white;
+    margin: 10px;
+    font-family: Arial;
+    letter-spacing: 1px;
+    border: 2px solid rgb(201, 195, 195);
+}
+
+.share-input {
+    width: 200px;
+    height: 50px;
+    font-size: 10px;
+    background: transparent;
+    color: white;
+    margin:10px;
+    font-family: Arial;
+    letter-spacing: 1px;
+    border: 2px solid rgb(201, 195, 195);
+}
+
+.share-input:hover {
+    background: rgb(85, 177, 238);
+}
+
+.share-inputs-container {
+    margin: 0;
+    padding: 80px 0 0 0;
+}
+
+h4 {
+    margin: 0;
+    padding: 80px 0 0 0;
+    color: white;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+.arrow-image {
+    margin: 0;
+    padding: 10px 0 0 0;
+    width:30px;
+    height:30px;
+}
+
+p {
+    margin: 0;
+    padding: 0px 0px 0px 70px;
+    color: white;
+    font-size: 90px;
+    font-family: Arial;
+}
+
+
+.social-component {
+    padding: 3px;
+    width:30px;
+    height:30px;
+    border-radius: 50px;
+}
+
+.social-component:hover {
+    background-color: grey;
+}
+
+.only-social {
+    display: flex;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    background:#313131
+}
+
+
+.in-search {
+    color:white;
+    border: none;
+    padding: 10px 10px 10px 40px;
+    background: #3f3e3e;
+    text-align: right;
+    font-size: 16px;
+    font-family: Arial;
+    border-bottom: 1px solid rgb(63, 61, 61);
+}
+
+.search {
+    position: relative;
+}
+
+.search-png {
+    position: absolute;
+    width:  20px;
+    height: 20px;
+    top:10px;
+    left:10px;
+
+}
+
+.in-search:focus {
+    outline: 0;
+}
+
+.sidebar {
+    padding: 0;
+    margin:0;
+}
+
+.sidebar li a {
+    display: block;
+    text-align: right;
+    padding: 15px 25px 15px 0px;
+    font-size: 15px;
+    color: rgb(182, 178, 178);
+    border-bottom: 1px solid rgb(63, 61, 61);
+    text-decoration: none;
+    font-family: Arial;
+}
+
+.sidebar li a:hover {
+    background: #666;
+    color: #fff;
+}
+
+@media screen and (max-width:800px) {
+
+    .body {
+        display: block;
+    }
+
+    .sidebar li a {
+        text-align: center;
+    }
+
+    .in-search {
+        width: 100%;
+
+    }
+
+    p {
+        padding: 0;
+    }
+
+}
+
+
+@media screen and (max-width:1200px) and (min-width:800px) {
+    .body {
+        display: block;
+    }
+
+    .in-search {
+        width: 100%;
+        text-align: center;
+    }
+
+    p {
+        padding: 0;
+    }
+
+    .sidebar {
+        display: flex;
+        list-style-type: none;
+    }
+
+    .sidebar li a {
+        text-align: center;
+        padding: 15px 5px 15px 5px;
+    }
+
+    .sidebar li {
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,13 @@
+.vlad h1{ color: white; position: center}
+.field {clear:both; text-align:right;line-height:25px;}
+label {float:left; padding-right:10px; color: white}
+.main {float:left}
+.tur2
+{
+    position:relative;
+    top:10px;
+    right:-400px;
+    width:10px;
+    height:10px;
+
+}
